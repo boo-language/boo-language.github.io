@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
+  background: #404040;
   color: #eaeaea;
-  font: 16px;
+  font-size: 12px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -36,36 +36,45 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: #303030;
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #4CFF00;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
 
 header h1 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin: 0 0 0 -40px;
+  font-size: 25px;
+  display:inline-block;
+  margin: 14px 0 0 0;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #4CFF00;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+  vertical-align: top;
 }
 
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
-}
 
 header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+#githubLink{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+#logo{
+    position:absolute;
+    top:10px;
+    left:10px;
 }
 
 #downloads .btn {
@@ -88,7 +97,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #4CFF00;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -244,4 +253,20 @@ a {
 
 .cf {
   zoom:1;
+}
+
+/* Home page */
+
+.homepage h1{
+    font-size: 35px;
+    margin-top:20px;
+}
+
+.homepage h2{
+    font-size: 30px;
+    margin-top:20px;
+}
+
+.homepage h3{
+    margin-top: 20px;
 }

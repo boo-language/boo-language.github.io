@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Boo language</title>
+    <subtitle>A wrist-friendly language for .Net</subtitle>
+    <link rel="alternate" href="/" />
+    <link rel="self" href="/feed.xml" type="application/atom+xml" />
+    <id>/</id>
+    <updated>2014-11-17T03:38:19Z</updated>
+    
+    <author>
+        <name>Andrew Buchan</name>
+        
+        <uri>/</uri>
+    </author>
+    
+    
+</feed>
